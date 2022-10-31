@@ -6,6 +6,6 @@ import { View,Text } from 'react-native';
 import {AppRegistry} from 'react-native';
 
 import {name as appName} from './app.json';
-import MainScreen from './screens/MainScreen';
+import Wellcome from './Component/screens/Wellcome';
 
-AppRegistry.registerComponent(appName, () => MainScreen);
+AppRegistry.registerComponent(appName, () => Wellcome);
